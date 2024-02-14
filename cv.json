@@ -1,0 +1,186 @@
+{
+    "basics": {
+      "name": "Gastón Capdevila",
+      "label": "Computer Engeneer Student and Full Stack Developer",
+      "image": "",
+      "email": "gaston.cadpevila118@gmail.com",
+      "phone": "+54 9 3549454609",
+      "url": "",
+      "summary": "As a Computer Engineering student, my main goal is to secure a position that allows me to apply my knowledge and gain practical experience in the field. I am seeking an opportunity where I can contribute to challenging projects, learn from experienced professionals, and advance in my career as an engineer. I am a highly motivated and hardworking individual, with a strong passion for software development and programming. I am a quick learner and a team player, with excellent communication skills and a strong desire to learn and grow.",
+      "location": {
+        "address": "",
+        "postalCode": "",
+        "city": "Cordoba",
+        "countryCode": "AR",
+        "region": "Argentina"
+      },
+      "profiles": [
+        {
+        "network": "Github",
+        "username": "Gaston118",
+        "url": "https://github.com/Gaston118"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "Gastón Capdevila",
+        "url": "https://www.linkedin.com/in/capdevilagaston/"
+      }]
+    },
+    "work": [{
+      "name": "Company",
+      "position": "President",
+      "url": "https://company.com",
+      "startDate": "2013-01-01",
+      "endDate": "2014-01-01",
+      "summary": "Description…",
+      "highlights": [
+        "Started the company"
+      ]
+    }],
+    "volunteer": [],
+    "education": [{
+      "institution": "Universidad Nacional de Cordoba",
+      "url": "https://fcefyn.unc.edu.ar/facultad/secretarias/academica/escuelas/ingenieria-computacion/ingenieria-en-computacion/",
+      "area": "Computer Engineering",
+      "studyType": "Bachelor",
+      "startDate": "2019-01-01",
+      "endDate": "",
+      "score": "",
+      "courses": [
+        "Algorithms and data structures",
+        "OOP",
+        "Software quality management",
+        "Multi-Thread Programming",
+        "Software Engineering"
+      ]
+    }],
+    "awards": [],
+    "certificates": [{
+      "name": "Full Stack Open",
+      "date": "2024-01-01",
+      "issuer": "University of Helsinki",
+      "url": "https://studies.cs.helsinki.fi/stats/api/certificate/fullstackopen/en/d755f56f42236bd068da0996a6bbaa07"
+    }],
+    "publications": [],
+    "skills": [
+        {"name": "Java" },
+        {"name": "C++" },
+        {"name": "JavaScript" },
+        {"name": "React" },
+        {"name": "Node.js" },
+        {"name": "Express" },
+        {"name": "MongoDB" },
+        {"name": "SQL" },
+        {"name": "Git" },
+        {"name": "REST" },
+        {"name": "Jest" },
+        {"name": "Cypress" },
+        {"name": "Junit" },
+        {"name": "Spring" },
+        {"name": "HTML" },
+        {"name": "CSS" },
+        {"name": "ASTRO" },
+        {"name": "JIRA" },
+        {"name": "Scrum" }, 
+        {"name": "TDD" },
+        {"name": "CI/CD" }
+    ],
+    "languages": [{
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Professional working proficiency"  
+    }],
+    "interests": [],
+    "references": [],
+    "projects": [
+    {
+      "name": "Smart farms for sustainable cities",
+      "active": false,
+      "startDate": "2023-08",
+      "endDate": "2023-11",
+      "description": "It is an environmental condition monitoring system that measures ambient temperature and plants humidity, using radio frequency modules and sensors.",
+      "technologies": [
+        "University project",
+        "Arduino",
+        "JavaScript",
+        "Node.js",
+        "React",
+        "Supabase",
+        "HTML",
+        "CSS"
+      ],
+      "url": "https://github.com/Gaston118/proyecto-teocom"
+    },
+        {
+            "name": "Double Image Processing System",
+            "active": true,
+            "startDate": "2023-07",
+            "endDate":"2023-11",
+            "description": "We develop a concurrent program in Java that simulates a dual image processing system that was modeled using a Petri net.",
+            "technologies": [
+              "University project",
+              "Java",
+              "Multi-Threads",
+              "Petri net"
+            ],
+            "url": "https://github.com/Gaston118/TP-FINAL"
+        },
+        { 
+            "name": "ApiRest NBA",
+            "active": true,
+            "startDate": "2024-01",
+            "endDate": "2024-02",
+            "description": "Provides access to an extensive database of NBA players. This API offers detailed information about active players.",
+            "technologies": [
+              "Side project",
+              "Node.js",
+              "Express",
+              "MongoDB",
+              "Mongoose",
+              "REST API",
+              "React",
+              "HTML",
+              "CSS"
+            ],
+            "url": 
+                "https://api-nba-s9d3.onrender.com"
+            },
+            { 
+            "name": "ApiRest AGENDA",
+            "active": true,
+            "startDate": "2023-11",
+            "endDate": "2023-12",
+            "description": "Provides a centralized service to efficiently manage and access contacts. This API offers functionality to store, search, update and delete contacts, making it easy to manage contact information.",
+            "technologies": [
+              "Side project",
+              "Node.js",
+              "Express",
+              "MongoDB",
+              "Mongoose",
+              "REST API",
+              "React",
+              "HTML",
+              "CSS"
+            ],
+            "url": 
+                "https://api-persons.onrender.com"
+            },
+            {
+              "name": "Galaga game",
+              "active": false,
+              "startDate": "2023-03",
+              "endDate": "2023-06",
+              "description": "With my partners developed a copy of the Galaga arcade game in Java using design and architecture patterns for the subject Software Engineering.",
+              "technologies": [
+                "University project",
+                "Java",
+                "JUnit",
+                "Gradle",
+                "CI/CD",
+                "JIRA"
+              ]}
+        ]
+  }
