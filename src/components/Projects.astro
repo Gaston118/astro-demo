@@ -20,7 +20,7 @@ import { projects } from "../../cv.json"
                             ) : (
                                 <h3>{name}</h3>
                             )}
-                                <span>{startDate} - {endDate}</span>
+                                <span>{startDate} / {endDate}</span>
                                 {active && <em class="active-dot">&bull;</em>}
                                 {!active && <em class="no-active-dot">&bull;</em>}
                                 <p>{description}</p>
@@ -46,14 +46,14 @@ import { projects } from "../../cv.json"
 <style>
     ul{
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
         gap: 1rem;
         list-style: none;
     }
 
     article{
         border-radius: 8px;
-        border: 1px solid #ebebeb;
+        border: 1px solid #c8c8c8;
         gap: 1rem;
         display: flex;
         flex-direction: column;

@@ -1,0 +1,15 @@
+---
+import {languages} from "../../cv.json"
+import Section from "./Section.astro"
+---
+
+<Section title="Languages">
+    <ul>
+        {languages.map(({language, fluency}) => (
+        <li>
+            <h4>{language}</h4>
+            <p>{fluency}</p>
+        </li>
+        ))}
+    </ul>
+</Section>
