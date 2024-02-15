@@ -24,6 +24,9 @@ import Lang from '../components/Lang.astro';
 		<Projects />
 		
 	</main>
+	<h4>
+		Ctrl + P for print like a Resume
+	</h4>
 </Layout>
 
 <style>
@@ -31,6 +34,20 @@ import Lang from '../components/Lang.astro';
 		padding: 4rem;
 		margin: auto;
 		width: 100%;
+	}
+
+	h4{
+		text-align: center;
+		margin-bottom: 20px;
+		margin-top: -40px;
+		color: #677e97;
+		font-size: 0.85rem;
+	}
+
+	@media print {
+		h4{
+			display: none;
+		}
 	}
 	
 </style>
