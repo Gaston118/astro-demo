@@ -9,13 +9,12 @@
 [https://gaston-capdevila.onrender.com/](https://gaston-capdevila.onrender.com/)
 
   
-  
 <h2>💻 Built with</h2>
 
 Technologies used in the project:
 
 *   Astro
-```
+
 
 Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
 
