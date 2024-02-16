@@ -96,24 +96,6 @@
     "interests": [],
     "references": [],
     "projects": [
-    {
-      "name": "Smart farms for sustainable cities",
-      "active": false,
-      "startDate": "2023-08",
-      "endDate": "2023-11",
-      "description": "It is an environmental condition monitoring system that measures ambient temperature and plants humidity, using radio frequency modules and sensors.",
-      "technologies": [
-        "University project",
-        "Arduino",
-        "JavaScript",
-        "Node.js",
-        "React",
-        "Supabase",
-        "HTML",
-        "CSS"
-      ],
-      "url": "https://github.com/Gaston118/proyecto-teocom"
-    },
         {
             "name": "Double Image Processing System",
             "active": true,
@@ -181,6 +163,24 @@
                 "Gradle",
                 "CI/CD",
                 "JIRA"
-              ]}
+              ]},
+              {
+                "name": "Smart farms for sustainable cities",
+                "active": false,
+                "startDate": "2023-08",
+                "endDate": "2023-11",
+                "description": "It is an environmental condition monitoring system that measures ambient temperature and plants humidity, using radio frequency modules and sensors.",
+                "technologies": [
+                  "University project",
+                  "Arduino",
+                  "JavaScript",
+                  "Node.js",
+                  "React",
+                  "Supabase",
+                  "HTML",
+                  "CSS"
+                ],
+                "url": "https://github.com/Gaston118/proyecto-teocom"
+              }
         ]
   }
