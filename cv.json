@@ -135,7 +135,7 @@
             "active": true,
             "startDate": "2023-11",
             "endDate": "2023-12",
-            "description": "Provides a centralized service to efficiently manage and access contacts. This API offers functionality to store, search, update and delete contacts, making it easy to manage contact information.",
+            "description": "Provides a centralized service to efficiently manage and access contacts. This API offers functionality to store, search, update and delete contacts.",
             "technologies": [
               "Side project",
               "Node.js",
@@ -154,7 +154,7 @@
               "name": "Galaga game",
               "active": false,
               "startDate": "2023-03",
-              "endDate": "2023-06",
+              "endDate": "2023-11",
               "description": "With my partners developed a copy of the Galaga arcade game in Java using design and architecture patterns for the subject Software Engineering.",
               "technologies": [
                 "University project",
