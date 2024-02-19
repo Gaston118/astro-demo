@@ -96,20 +96,6 @@
     "interests": [],
     "references": [],
     "projects": [
-        {
-            "name": "Double Image Processing System",
-            "active": true,
-            "startDate": "2023-07",
-            "endDate":"2023-11",
-            "description": "We develop a concurrent program in Java that simulates a dual image processing system that was modeled using a Petri net.",
-            "technologies": [
-              "University project",
-              "Java",
-              "Multi-Threads",
-              "Petri net"
-            ],
-            "url": "https://github.com/Gaston118/TP-FINAL"
-        },
         { 
             "name": "ApiRest NBA",
             "active": true,
@@ -151,26 +137,12 @@
                 "https://api-persons.onrender.com"
             },
             {
-              "name": "Galaga game",
+              "name": "Smart farms for sustainable cities",
               "active": false,
-              "startDate": "2023-03",
+              "startDate": "2023-08",
               "endDate": "2023-11",
-              "description": "With my partners developed a copy of the Galaga arcade game in Java using design and architecture patterns for the subject Software Engineering.",
+              "description": "It is an environmental condition monitoring system that measures ambient temperature and plants humidity, using radio frequency modules and sensors.",
               "technologies": [
-                "University project",
-                "Java",
-                "JUnit",
-                "Gradle",
-                "CI/CD",
-                "JIRA"
-              ]},
-              {
-                "name": "Smart farms for sustainable cities",
-                "active": false,
-                "startDate": "2023-08",
-                "endDate": "2023-11",
-                "description": "It is an environmental condition monitoring system that measures ambient temperature and plants humidity, using radio frequency modules and sensors.",
-                "technologies": [
                   "University project",
                   "Arduino",
                   "JavaScript",
@@ -179,8 +151,22 @@
                   "Supabase",
                   "HTML",
                   "CSS"
+              ],
+              "url": "https://github.com/Gaston118/proyecto-teocom"
+              },
+              {
+                "name": "Double Image Processing System",
+                "active": true,
+                "startDate": "2023-07",
+                "endDate":"2023-11",
+                "description": "We develop a concurrent program in Java that simulates a dual image processing system that was modeled using a Petri net.",
+                "technologies": [
+                  "University project",
+                  "Java",
+                  "Multi-Threads",
+                  "Petri net"
                 ],
-                "url": "https://github.com/Gaston118/proyecto-teocom"
-              }
+                "url": "https://github.com/Gaston118/TP-FINAL"
+            }
         ]
   }
