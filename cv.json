@@ -136,6 +136,20 @@
             "url": 
                 "https://api-persons.onrender.com"
             },
+              {
+                "name": "Double Image Processing System",
+                "active": true,
+                "startDate": "2023-07",
+                "endDate":"2023-11",
+                "description": "We develop a concurrent program in Java that simulates a dual image processing system that was modeled using a Petri net.",
+                "technologies": [
+                  "University project",
+                  "Java",
+                  "Multi-Threads",
+                  "Petri net"
+                ],
+                "url": "https://github.com/Gaston118/TP-FINAL"
+            },
             {
               "name": "Smart farms for sustainable cities",
               "active": false,
@@ -153,20 +167,6 @@
                   "CSS"
               ],
               "url": "https://github.com/Gaston118/proyecto-teocom"
-              },
-              {
-                "name": "Double Image Processing System",
-                "active": true,
-                "startDate": "2023-07",
-                "endDate":"2023-11",
-                "description": "We develop a concurrent program in Java that simulates a dual image processing system that was modeled using a Petri net.",
-                "technologies": [
-                  "University project",
-                  "Java",
-                  "Multi-Threads",
-                  "Petri net"
-                ],
-                "url": "https://github.com/Gaston118/TP-FINAL"
-            }
+              }
         ]
   }
