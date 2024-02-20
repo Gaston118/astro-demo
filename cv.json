@@ -114,6 +114,8 @@
               "CSS"
             ],
             "url": 
+                "https://github.com/Gaston118/ApiRest-NBA",
+            "site": 
                 "https://api-nba-s9d3.onrender.com"
             },
             { 
@@ -134,11 +136,13 @@
               "CSS"
             ],
             "url": 
+                "https://github.com/Gaston118/ApiRest-AGENDA",
+            "site": 
                 "https://api-persons.onrender.com"
             },
               {
                 "name": "Double Image Processing System",
-                "active": true,
+                "active": false,
                 "startDate": "2023-07",
                 "endDate":"2023-11",
                 "description": "We develop a concurrent program in Java that simulates a dual image processing system that was modeled using a Petri net.",
@@ -148,7 +152,8 @@
                   "Multi-Threads",
                   "Petri net"
                 ],
-                "url": "https://github.com/Gaston118/TP-FINAL"
+                "url": "https://github.com/Gaston118/TP-FINAL",
+                "site": ""
             },
             {
               "name": "Smart farms for sustainable cities",
@@ -166,7 +171,8 @@
                   "HTML",
                   "CSS"
               ],
-              "url": "https://github.com/Gaston118/proyecto-teocom"
+              "url": "https://github.com/Gaston118/proyecto-teocom",
+              "site": ""
               }
         ]
   }
