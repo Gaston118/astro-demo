@@ -63,7 +63,7 @@ import { projects } from "../../cv.json"
 
     article{
         border-radius: 8px;
-        border: 1px solid #c8c8c8;
+        border: 1px solid #d1d1d1;
         gap: 1rem;
         display: flex;
         flex-direction: column;
@@ -78,13 +78,14 @@ import { projects } from "../../cv.json"
     }
 
     article a:hover{
+        color:#3d3d3d;
         text-decoration: underline;
     }
 
     footer li{
         border-radius: 6px;
-        background: #e2e2e2;
-        color: rgb(55, 55, 55);
+        background: #e7e7e7;
+        color: #3d3d3d;
         font-size: 0.75rem;
         font-weight: 500;
         padding: 0.2rem 0.5rem;
@@ -101,9 +102,9 @@ import { projects } from "../../cv.json"
     }
 
     header span{
-        border: solid 1px #979797;
+        border: solid 1px #d1d1d1;
         border-radius: 15px;
-        color: rgb(0, 0, 0);
+        color: #3d3d3d;
         font-size: 0.7rem;
         font-weight: 500;
         padding: 0.3rem 0.5rem 0.3rem 0.5rem;
@@ -118,12 +119,44 @@ import { projects } from "../../cv.json"
     header p{
         margin-top: 10px;
         font-size: 0.8rem;
-        color: #838383;
+        color: #5d5d5d;
     }
 
     .active-dot{
         color: #00ff00;
-        margin-left: -5px;
     }
+
+    :global(.dark) h3{
+        color: #e7e7e7;
+    }
+
+    :global(.dark) h3:hover{
+        color: #888888;
+        text-decoration: underline;
+    }
+
+    :global(.dark) p{
+        color: #e7e7e7;
+    }
+
+    :global(.dark) footer p:hover{
+        color: #888888;
+        text-decoration: underline;
+    }
+
+    :global(.dark) header span{
+        color: #e7e7e7;
+    }
+
+    :global(.dark) header p{
+        color: #e7e7e7;
+    }
+
+    :global(.dark) footer li{
+        background-color: #09145c;
+        color: #d1d1d1;
+        border: 1px solid #09145c;
+    }
+
 
 </style>

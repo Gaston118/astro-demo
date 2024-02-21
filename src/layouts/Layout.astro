@@ -21,9 +21,25 @@ const { title } = Astro.props;
 	</body>
 </html>
 <style is:global>
+
+--black-50: #f6f6f6;
+--black-100: #e7e7e7;
+--black-200: #d1d1d1;
+
+--black-400: #888888;
+--black-600: #5d5d5d;
+--black-800: #454545;
+
+--black-900: #3d3d3d;
+--black-950: #000000;
+
 	html{
 		font-family: Menlo, Monaco, 'Courier New', monospace;
-		letter-spacing: -0.025rem;
+		letter-spacing: -0.025rem;;
+	}
+
+	html.dark{
+		background-color: #00031a;
 	}
 
 	body, figure{
@@ -51,12 +67,14 @@ const { title } = Astro.props;
 	}
 
 	p{
-		color: #505050;
+		color: #454545;
 		font-size: .9rem;
 		line-height: 1.5;
 		margin: 0;
 		text-wrap: pretty;
 		font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;;
 	}
+
+
 
 </style>

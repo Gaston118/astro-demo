@@ -25,8 +25,8 @@ import {skills} from "../../cv.json"
 
     li{
         border-radius: 6px;
-        background: #677e97;
-        color: rgb(255, 255, 255);
+        background: #888888;
+        color: #e7e7e7;
         font-size: 0.9rem;
         font-weight: 500;
         padding: 0.2rem 0.5rem;
@@ -34,15 +34,26 @@ import {skills} from "../../cv.json"
     }
 
     li:hover{
-        background: #eee;
+        background: #e7e7e7;
         color: black;
     }
+
+    :global(.dark) li{
+        background-color: #00031a;
+        color: #d1d1d1;
+        border: 1px solid #09145c;
+    }
+
+    :global(.dark) li:hover{
+        color: #ff3ebb;
+        border: 1px solid #ff3ebb;
+    }
+
 
     @media print{
         li{
             color: black;
         }
     }
-
 
 </style>

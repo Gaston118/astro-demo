@@ -6,6 +6,7 @@ import Phone from "../icons/Phone.astro"
 import LinkedIn from "../icons/LinkedIn.astro"
 import GitHub from "../icons/GitHub.astro"
 import World from "../icons/World.astro"
+import ThemeIcon from "../components/ThemeIcon.astro"
 
 const {name, label, location, profiles, email, phone} = basics
 const {city, region} = location
@@ -80,8 +81,8 @@ const giturl = gitinfo?.url
                     </svg>
                 </a>
             </footer>
-
         </div>
+        <ThemeIcon/>
     </div>
 </Section>
 
@@ -99,7 +100,7 @@ const giturl = gitinfo?.url
     }
 
     h2{
-        color: #7f7f7f;
+        color: #5d5d5d;
         font-weight: 500;
         font-size: 1rem;
         text-wrap: balance;
@@ -108,7 +109,7 @@ const giturl = gitinfo?.url
     }
 
     span{
-        color: #666;
+        color: #888888;
         display: inline-flex;
         font-size: 0.9rem;
         column-gap: 0.4rem;
@@ -128,16 +129,16 @@ const giturl = gitinfo?.url
         gap: 0.3rem;
         align-items: center;
         margin-top: 8px;
-        margin-bottom: -30px;
+        margin-bottom: -10px;
     }
 
     footer a {
-        color: #ffffff;
-        background: #677e97;
+        color: #e7e7e7;
+        background: #888888;
+		border: 1px solid #e7e7e7;
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        border: 1px solid #eee;
         padding: 4px;
         height: 32px;
         width: 32px;
@@ -146,8 +147,22 @@ const giturl = gitinfo?.url
     }
 
     footer a:hover{
-        background-color: #eee;
+        background-color: #e7e7e7;
         color: #000000;
+    }
+
+    :global(.dark) h1, :global(.dark) h2{
+        color: #f6f6f6;
+    }
+
+    :global(.dark) footer a{
+        background-color: #00031a;
+        color: #b0b0b0;
+        border: 1px solid #00031a;
+    }
+
+    :global(.dark) footer a:hover{
+        color: #ff3ebb;
     }
 
     .print{
@@ -179,5 +194,4 @@ const giturl = gitinfo?.url
     }
 
 </style>
-```
 

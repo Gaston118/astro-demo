@@ -20,11 +20,11 @@ const today = new Date();
 
 <style>
     .footer{
-        background-color: #f0f0f0;
-        color: #2f2f2f;
+        background-color: #e7e7e7;
+        color: #3d3d3d;
         text-align: center;
         padding: 1.5rem;
-        border-radius: 1rem;
+        border-radius: 1.5rem 1.5rem 0 0;
     }
 
     a{
@@ -39,6 +39,21 @@ const today = new Date();
 
     span{
         font-size: 0.9rem;
+    }
+
+    :global(.dark) .footer{
+      background: rgb(13,9,80);
+      background: linear-gradient(90deg, rgba(13,9,80,1) 0%, rgba(0,3,26,1) 100%);
+      color: #b0b0b0;
+    }
+
+    :global(.dark) a{
+        color: #e7e7e7;
+    }
+
+    :global(.dark) a:hover{
+        text-decoration: underline;
+        color: #ff3ebb;
     }
 
     @media print {

@@ -48,14 +48,30 @@ import { education, certificates } from "../../cv.json"
 
     a{
         text-decoration: none;
-        color: rgb(133, 133, 133);
+        color: #888888;
         font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
         transition: all 0.3s ease;
     }
 
     a:hover {
-        color: rgb(86, 86, 86);
+        color: #454545;
         text-decoration: underline;
+    }
+
+    :global(.dark) h4{
+        color: #d1d1d1;
+    }
+
+    :global(.dark) p{
+        color: #b0b0b0;
+    }
+
+    :global(.dark) a{
+        color: #b0b0b0;
+    }
+
+    :global(.dark) a:hover{
+        color: #5d5d5d;
     }
 
 </style>
